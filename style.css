@@ -27,6 +27,23 @@ body {
     width: 75vw;
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 10px;
+    font-size: 30px;   
+    line-height: 40px;
+    font-weight: bold; 
+}
+
+.AudioVibePlaylists h1 {
+    margin-left: 30px; 
+    margin-top: 10px;
+}
+
 .home ul li {
     display: flex;
     gap: 15px;
@@ -182,12 +199,12 @@ body {
     justify-content: center;
     align-items: center;
     position: fixed;
-    bottom: 30px;
+    bottom: 20px;
     filter: invert(1);
     background: #e2d9d9;
     border-radius: 10px;
     width: 90%;
-    padding: 12px;
+    padding: 13px;
     width: 70vw;
     min-height: 40px;
 }
@@ -314,7 +331,7 @@ body {
 .abovebar {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    margin: 15px 0;
     width: 100%;
 }
 
